@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+#weatherBox {
+    background: linear-gradient(150deg, rgb(102, 102, 205), rgb(36, 36, 117));
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#weatherBox h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+#inputField {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 25px;
+}
+
+#inputField #inputArea {
+    padding: 15px;
+    width: 80%;
+    border-radius: 20px;
+    outline: none;
+    border-style: none;
+    color: black;
+}
+
+#inputField #btn {
+    border-style: none;
+    outline: none;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+#inputField #btn img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+#weatherInfoBox #weatherImage img {
+    height: 120px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+hr {
+    width: 85%;
+    margin: 30px auto 0px;
+}
+
+#weatherDetails {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 30px;
+    margin: 25px 0px;
+}
+
+#weatherInfoBox h1 {
+    font-size: 70px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#weatherDeatils h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
